@@ -8,7 +8,7 @@ while(True):
 
     time.sleep(1)
 
-    soup = BeautifulSoup(source,'html')
+    soup = BeautifulSoup(source,'html5lib')
 
     mainCounter = soup.find("div", class_="table-responsive")
 
