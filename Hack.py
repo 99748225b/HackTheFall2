@@ -13,7 +13,6 @@ while(True):
     mainCounter = soup.find("div", class_="table-responsive")
 
 
-    joe = mainCounter.find("strong").text
-
-    # print(mainCounter)
-    print(joe)
+    var = mainCounter.find("strong").text
+    
+    print(var)
