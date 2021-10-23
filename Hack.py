@@ -8,7 +8,7 @@ while(True):
 
     time.sleep(1)
 
-    soup = BeautifulSoup(source,'lxml')
+    soup = BeautifulSoup(source,'html')
 
     mainCounter = soup.find("div", class_="table-responsive")
 
